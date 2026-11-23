@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tecnologías | Impacto de las Tecnologías Web</title>
+  <meta name="description" content="Piezas con las que se construye la web: HTML semántico, estilos, navegación y un video de apoyo.">
+  <meta name="author" content="Burgos Suárez Jasson Steven">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="cabecera-interno">
+      <p class="curso">Tecnologías Web · UTPL · Primer bimestre</p>
+      <p class="titulo-sitio">Impacto de las tecnologías web</p>
+      <p class="bajada">Sociedad, negocios y lenguajes de marcado en un mismo recorrido.</p>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="sociedad.html">Sociedad</a></li>
+          <li><a href="negocios.html">Negocios</a></li>
+          <li><a href="tecnologias.html" aria-current="page">Tecnologías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="envoltorio">
+    <main id="contenido">
+      <h1>Las piezas con las que se construye la web</h1>
+      <p class="lead">El impacto social y económico descrito en las otras páginas ocurre en sitios concretos. Esta página baja a las piezas que un equipo usa para publicarlos, con énfasis en el marcado semántico de <abbr title="HyperText Markup Language, versión 5">HTML5</abbr>.</p>
+
+      <section>
+        <h2>Una ficha para leer cualquier página</h2>
+        <figure class="marco">
+          <img src="../images/desarrollo-web.jpg" width="1200" height="799" alt="Computadora portátil con código en pantalla, sobre un escritorio de trabajo">
+          <figcaption>Antes de verse en el navegador, la página es un documento de texto con estructura. Fotografía: Unsplash.</figcaption>
+        </figure>
+        <article>
+          <h3>HTML, el esqueleto con significado</h3>
+          <p>HTML no describe solo el aspecto. Dice qué parte es encabezado, qué parte es navegación, cuál es el contenido principal y cuál es un dato complementario. Esa diferencia ayuda a las personas y también a los programas que leen la página.</p>
+
+          <h4>Qué problema resuelve el marcado semántico</h4>
+          <p>Si todo se marca como un bloque genérico, el documento se ve, pero no se entiende. Un menú deja de ser un menú, un artículo deja de ser un artículo y un pie de página se confunde con un párrafo más. Las etiquetas semánticas devuelven esos nombres.</p>
+
+          <h5>Buena práctica aplicada en este sitio</h5>
+          <p>Cada página tiene un solo <code>h1</code>. El menú se repite en todas, con rutas relativas, y el contenido se reparte en secciones y artículos. El formulario de contacto usa <code>label</code> unido a cada campo.</p>
+
+          <h6>Detalle de implementación</h6>
+          <p>Los archivos no están sueltos en una sola carpeta. Los estilos viven en <code>css</code>, las imágenes en <code>images</code> y las páginas secundarias en <code>pages</code>. La ruta relativa describe dónde está el recurso sin depender de un dominio.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Otras piezas que acompañan al marcado</h2>
+        <article>
+          <h3>Estilos, navegador y organización</h3>
+          <p>La hoja de estilos separa la presentación del contenido. El navegador interpreta ambas y pinta la página. Si el enlace a la hoja está roto, el texto sigue ahí: se puede leer, aunque se vea sin composición. Esa resistencia es una ventaja de haber escrito HTML con sentido.</p>
+          <ul>
+            <li><strong>CSS:</strong> color, tipografía, columnas y la adaptación a una pantalla angosta.</li>
+            <li><strong>Enlaces relativos:</strong> permiten abrir el sitio desde una carpeta o desde un repositorio.</li>
+            <li><strong>Texto alternativo:</strong> describe la imagen cuando no se puede ver.</li>
+            <li><strong>Formularios:</strong> ponen nombre a cada dato que se pide.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Del documento al servicio</h3>
+          <p>Una página estática, como este trabajo, ya alcanza para explicar un tema, mostrar una tabla y ofrecer un formulario de demostración. Los negocios que cobran o guardan cuentas suman después bases de datos, sesiones y pagos. El orden correcto es el mismo: primero una estructura clara, después las funciones.</p>
+          <ol>
+            <li>Definir qué necesita saber la persona que llega.</li>
+            <li>Ordenar esa información en páginas y encabezados.</li>
+            <li>Marcar cada zona con la etiqueta que le corresponde.</li>
+            <li>Enlazar las páginas entre sí y probar que ningún vínculo falle.</li>
+            <li>Revisar el documento en el validador del W3C.</li>
+          </ol>
+        </article>
+      </section>
+
+      <section>
+        <h2>Video de apoyo</h2>
+        <article>
+          <h3>Digitalización, economía y desarrollo</h3>
+          <p>El material siguiente recoge el planteamiento de la CEPAL: la digitalización de los negocios es una condición del desarrollo económico y social en América Latina. Complementa las tablas de este sitio con una mirada regional.</p>
+          <figure class="video">
+            <iframe src="https://www.youtube.com/embed/hYIdchdIE9A" title="La digitalización de los negocios es fundamental para el desarrollo económico y social, video de la CEPAL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <figcaption>Agencia Informativa UVAQ. La digitalización de los negocios es fundamental para el desarrollo económico y social: CEPAL.</figcaption>
+          </figure>
+          <p>Si el reproductor no carga en el navegador, el mismo material está en YouTube: <a href="https://www.youtube.com/watch?v=hYIdchdIE9A">La digitalización de los negocios es fundamental para el desarrollo económico y social</a>.</p>
+        </article>
+      </section>
+    </main>
+
+    <aside class="complemento">
+      <h2>Etiquetas de este sitio</h2>
+      <dl>
+        <dt>header</dt>
+        <dd>Identidad del sitio y menú superior.</dd>
+        <dt>nav</dt>
+        <dd>El menú principal y el del pie.</dd>
+        <dt>main</dt>
+        <dd>El contenido propio de cada página.</dd>
+        <dt>section</dt>
+        <dd>Bloques temáticos con su encabezado.</dd>
+        <dt>article</dt>
+        <dd>Una idea que se puede leer por separado.</dd>
+        <dt>aside</dt>
+        <dd>Esta columna de apoyo.</dd>
+        <dt>footer</dt>
+        <dd>Autoría, asignatura y créditos.</dd>
+      </dl>
+      <p><a href="contacto.html">Ir al formulario de contacto</a></p>
+    </aside>
+  </div>
+
+  <footer class="pie">
+    <div class="pie-interno">
+      <div>
+        <p><strong>Burgos Suárez Jasson Steven</strong></p>
+        <p>Tecnologías Web · Universidad Técnica Particular de Loja</p>
+        <p>Actividad ACDB1-35% · <time datetime="2026-11">Noviembre de 2026</time></p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="menu-pie">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="sociedad.html">Sociedad</a></li>
+          <li><a href="negocios.html">Negocios</a></li>
+          <li><a href="tecnologias.html">Tecnologías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <p>Fotografías de apoyo publicadas en Unsplash. El video de la sección Tecnologías está en YouTube (Agencia Informativa UVAQ).</p>
+    </div>
+  </footer>
+</body>
+</html>
