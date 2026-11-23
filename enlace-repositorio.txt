@@ -2,4 +2,8 @@ Repositorio público del sitio y del informe técnico
 Actividad ACDB1-35% · Tecnologías Web · UTPL
 Estudiante: Burgos Suárez Jasson Steven
 
+Repositorio:
 https://github.com/jassonsbs28/impacto-tecnologias-web
+
+Sitio publicado:
+https://jassonsbs28.github.io/impacto-tecnologias-web/
